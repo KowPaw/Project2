@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900&subset=latin-ext');
+
+* {
+	box-sizing: border-box;
+  	font-family: 'Lato', sans-serif;
+  	color: #5a5a5a;
+}
+.pink-btn {
+	background: #ed145b;
+	border-radius: 25px;
+	border: none;
+	padding: 10px 30px;
+	font-size: 13px;
+}
+.under-line {
+	border-bottom: 2px solid #ed145b;
+}
+
+header {
+	background: url("images/hero.jpg");
+	background-size: cover;
+	color: white;
+}
+header .navbar-default {
+	background: none;
+	border: none;
+	padding-top: 10px;
+}
+header .navbar-default .navbar-left img {
+	margin-top: 15px;
+}
+header .navbar-default .navbar-nav > li > a {
+	color: white;
+	font-size: 12px;
+}
+header .navbar-default .navbar-nav > li > a:hover {
+	color: #ed145b;
+}
+header h1 {
+	font-weight: 300;
+	margin: 100px 0 20px;
+	color: white;
+}
+header h1 > span {
+	font-weight: 900;
+	color: white;
+}
+header .under-line {
+	width: 20%;
+	margin: 0 auto;
+}
+header p {
+	color: white;
+	line-height: 26px;
+}
+header .col-lg-8 > p:nth-of-type(2) {
+	margin: 20px 0 50px;
+}
+header .pink-btn {
+	margin:0 auto 150px;
+	width: 150px;
+}
+header .pink-btn a {
+	text-decoration: none;
+}
+header .pink-btn b {
+		color: white;
+}
+
+#about .container-fluid {
+	padding: 0;
+	position: relative;
+	background: #f4f4f4;
+}
+#about .container-fluid > div:first-of-type {
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#about .line {
+	background: #ed145b;
+	width: 100%;
+	height: 30px;
+	top: -16px;
+	transform: rotate(-1deg);
+	position: absolute;
+}
+#about h2 {
+	font-style: italic;
+	margin: 60px 0 20px;
+}
+#about .under-line {
+	width: 45%;
+}
+#about .col-lg-3 p:nth-of-type(2) {
+	margin: 30px 0;
+}
+#about h5 {
+	margin-bottom: 75px;
+	position: relative;
+}
+#about h5 b {
+	color: #ed145b;
+	margin-right: 10px;
+}
+#about h5 span {
+	color: #ed145b;
+	font-size: 26px;
+	position: relative;
+	top: 8px;
+}
+#about .col-lg-6 img {
+	position: absolute;
+	width: 750px;
+	margin: 5px 0;
+}
+
+#services .container-fluid {
+	margin-bottom: 100px;
+}
+#services h2 {
+	font-style: italic;
+	margin: 90px 0 20px;
+}
+#services .under-line {
+	width: 25%;
+	margin: 0 auto;
+}
+#services .col-lg-6 p:nth-of-type(2) {
+	margin: 25px 30px 50px;
+	line-height: 26px;
+}
+#services .row:nth-of-type(2) h5 b {
+	color: #ed145b;
+}
+#services .circle {
+	margin: 25px auto;
+	width: 120px;
+	height: 120px;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+}
+#services .circle img {
+	height: 60px;
+	width: 60px;
+	margin-top: 25px;
+}
+
+.quotation {
+	background: url("images/hero.jpg");
+	background-size: cover;
+}
+.quotation .col-lg-1 {
+	padding: 0;
+	margin-top: 150px;
+}
+.quotation .col-lg-1 img {
+	height: 25px;
+}
+.quotation .col-lg-6 img {
+	width: 50px;
+}
+.quotation .col-lg-6 img:first-of-type {
+	margin: 70px 0 30px;
+}
+.quotation .col-lg-6 img:nth-of-type(2) {
+	transform: rotate(180deg);
+	margin: 30px 0 70px;
+}
+.quotation .col-lg-6 p {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 300;
+	color: white;
+}
+.quotation .col-lg-1:first-of-type img {
+	float: left;
+}
+.quotation .right-arrow img {
+	transform: rotate(180deg);
+	float: right;
+}
+
+#prices {
+	background: #f4f4f4;
+}
+#prices .container-fluid {
+	margin-bottom: 20px;
+}
+#prices h2 {
+	font-style: italic;
+	margin: 90px 0 20px;
+}
+#prices .under-line {
+	width: 25%;
+	margin: 0 auto;
+}
+#prices .col-lg-6 p:nth-of-type(2) {
+	margin: 25px 30px 50px;
+	line-height: 26px;
+}
+#prices .row:nth-of-type(2) {
+	margin-bottom: 100px;
+}
+#prices .col-lg-2 {
+	margin-bottom: 15px;
+}
+#prices .box-top {
+	background: #5a5a5a;
+	padding: 25px 0 40px;
+	position: relative;
+}
+#prices .box-top:hover {
+	background: #ed145b;
+}
+#prices .box-top p {
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+#prices .box-top p:nth-of-type(2) {
+	line-height: 14px;
+}
+#prices .box-top .pink-btn {
+	margin: 25px auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 140px;
+	background: #f4f4f4;
+	color: #5a5a5a;
+	cursor: default;
+}
+#prices .box-top span b {
+	font-size: 40px;
+	color: white;
+	line-height: 40px;
+}
+#prices .box-bottom {
+	text-align: center;
+	background: white;
+	padding-top: 50px;
+}
+#prices .box-bottom p {
+	line-height: 30px;
+}
+#prices .box-bottom .pink-btn {
+	margin: 20px 0 30px;
+}
+#prices .box-bottom .pink-btn b {
+	color: white;
+}
+
+#benefits .col-lg-8 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+#benefits .media-left img {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#benefits .media-body h5 {
+	margin-bottom: 15px;
+}
+#benefits .media-body h5 b {
+	color: #ed145b;
+}
+#benefits .media-body p {
+	line-height: 25px;
+}
+
+#contact {
+	background: #ed145b;
+	padding: 30px 0;
+}
+#contact h3 {
+	color: white;
+	font-weight: 300;
+}
+#contact h3 b {
+	color: white;
+}
+#contact .pink-btn {
+	background: white;
+	margin-left: 30px;
+}
+#contact .pink-btn b {
+	color: #ed145b;
+}
+
+#gallery .container-fluid {
+	margin-bottom: 20px;
+}
+#gallery h2 {
+	font-style: italic;
+	margin: 90px 0 20px;
+}
+#gallery .under-line {
+	width: 25%;
+	margin: 0 auto;
+}
+#gallery .col-lg-6 p:nth-of-type(2) {
+	margin: 25px 30px 50px;
+	line-height: 26px;
+}
+#gallery .col-lg-4 {
+	margin: 25px 0;
+}
+#gallery .col-lg-4 > div {
+	background: #f4f4f4;
+}
+#gallery .photo {
+	background-size: cover;
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+}
+#gallery .photo:hover > div:first-of-type {
+	background: rgba(237, 20, 91, 0.8);
+	height: 180px;
+	transition: 1s;
+}
+#gallery .photo span {
+	font-size: 35px;
+	display: block;
+	text-align: center;
+	line-height: 180px;
+	color: white;
+	visibility: hidden;
+}
+#gallery .photo:hover span {
+	visibility: visible;
+}
+#gallery .photo .line {
+	background: rgb(237, 20, 91);
+	height: 20px;
+	transform: rotate(2deg);
+	position: absolute;
+	width: 100%;
+	top: 175px;
+}
+#gallery .photo a {
+	text-decoration: none;
+}
+#gallery .ph-1 { background: url("images/phone.jpg"); }
+#gallery .ph-2 { background: url("images/tiles.jpg"); }
+#gallery .ph-3 { background: url("images/buildings.jpg"); }
+#gallery .ph-4 { background: url("images/take-photo.jpg"); }
+#gallery .ph-5 { background: url("images/bridge.jpg"); }
+#gallery .ph-6 { background: url("images/railway.jpg"); }
+#gallery .describe {
+	padding: 15px;
+}
+#gallery .describe p {
+	line-height: 24px;
+}
+#gallery .more {
+	margin: 50px 0 10px;
+}
+#gallery .more h5 {
+	margin: 0;
+}
+#gallery .more h5 b {
+	color: #ed145b;
+}
+#gallery .more img {
+	width: 15px;
+}
+
+#template {
+	background: url("images/hero.jpg");
+	background-size: cover;
+}
+#template .container-fluid {
+	padding: 100px 15px 100px;
+}
+#template h2 {
+	font-style: italic;
+	margin: 60px 0 20px;
+	color: white;
+}
+#template .under-line {
+	width: 25%;
+	margin: 0 auto;
+}
+#template .col-lg-6 p:nth-of-type(2) {
+	margin: 30px 30px 50px;
+	line-height: 26px;
+	color: white;
+}
+#template .pink-btn {
+	width: 150px;
+	margin: 0 auto;
+}
+#template .pink-btn a {
+	text-decoration: none;
+}
+#template .pink-btn b {
+	color: white;
+}
+
+#download {
+	background: #f4f4f4;
+}
+#download .col-lg-5 {
+	padding: 70px 0;
+}
+#download img {
+	width: 100%;
+}
+#download .col-lg-4 {
+	padding-left: 50px;
+	margin-top: 60px;
+}
+#download h2 {
+	font-style: italic;
+	margin: 20px 0;
+}
+#download .under-line {
+	width: 40%;
+}
+#download .col-lg-4 p:nth-of-type(2) {
+	margin: 30px 0;
+	line-height: 26px;
+}
+#download .pink-btn {
+	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+#download .pink-btn b {
+	color: white;
+}
+
+footer {
+	background: #2b2b2b;
+	padding: 30px 0 25px;
+	font-size: 10px;
+}
+footer p {
+	color: white;
+	font-weight: 300;
+	line-height: 24px;
+}
+footer p b {
+	color: white;
+}
+footer p span {
+	color: #ed145b;
+	font-size: 24px;
+}
+footer .col-lg-4:first-of-type {
+	padding: 5px 15px;
+}
+
+@media (max-width: 1500px) {
+	#about .col-lg-6 img {
+		position: inherit;
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	#contact .pink-btn {
+		display: block;
+		margin: 15px auto;
+	}
+	#download .pink-btn {
+		display: block;
+		margin: 15px auto;
+	}
+}
